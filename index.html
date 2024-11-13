@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <title>L8S 313374 C47C!</title>
+        <!--
+            UPPGIFT
+            Gör en kalkylator. Den ska kunna addera, subtrahera, multiplicera och dividera.
+
+            EXTRA GULDSTJÄRNA
+            Få kalkylatorn att reagera på knapptryck.
+
+            TID:
+            2 veckor.
+        -->
+        <script>
+            function clear()
+            {
+
+            }
+
+            function add()
+            {
+
+            }
+
+            function subtract()
+            {
+
+            }
+
+            function divide()
+            {
+
+            }
+
+            function multiply()
+            {
+
+            }
+        </script>
+        <style>
+            body, * {
+                font-family: 'Courier New', Courier, monospace;
+            }
+            #calc {
+                position: relative;
+                background-color: #ff6600;
+                width: fit-content;
+                padding: 1ch;
+                margin: auto auto;
+            }
+            #buttons {
+                display: flex;
+                flex-flow: row;
+                flex-wrap: wrap;
+                width: 31ch;
+            }
+
+            button {
+                font-size: 4ch;
+                width: 3ch;
+                height: 3ch;
+                max-height: 3ch;
+                max-width: 12ch;
+                margin-bottom: 0.25ch;
+                margin-right: 0.25ch;
+            }
+
+            .end {
+                margin-right: 0ch;
+            }
+
+            input[type='text'] {
+                font-size: 4ch;
+                height: 3.5ch;
+                max-width: 12.75ch;
+                margin-bottom: 0.25ch;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+        <div id="calc">
+            <div id="window">
+                <input type="text" id="calcwin" placeholder="80085" />
+            </div>
+
+            <div style="display:grid; justify-content: end; width: 100%; max-width: 30.5ch; max-height: 3ch; padding: 0; margin-bottom: 1.5ch; background-color: silver;">
+                <div style="background-color: brown; width: fit-content; padding:0.5ch;">L8 31337 C47C</div>
+            </div>
+
+            <div id="buttons">
+                <button style="width: 6.25ch;">C</button>
+                <button style="margin-left: 3.25ch;" class="end">&divide;</button>
+
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button class="end">&times;</button>
+
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button class="end">&minus;</button>
+
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button class="end">&plus;</button>
+
+                <button>0</button>
+                <button style="margin-left:3.25ch">.</button>
+                <button class="end">=</button>
+            </div>
+        </div>
+        </form>
+    </body>
+</html>
